@@ -1,6 +1,6 @@
 Name:
 
-Number of elements:
+Number of elements: 
 
 Bubble Sort
 Sorted:
@@ -29,16 +29,18 @@ Random:
 
 Questions to answer:
 1) What was the worst case scenario for any sorting technique?
-
+The worst scenior for sorting technique is reverse order. 
 
 2) The first 3 sorts have the same runtime of O(n^2). Why were the times different? Why would one be more efficient than the others?
-
+They have a differnet time based on the code for example when sorting 100 Ordered list time: 0.00027 seconds,
+Reversed list time: 0.00040 seconds,and Random list time: 0.00034 seconds. For example for the reverse order code shifts every elemet making it run slower this can be seen in line 6-20. To make it more efficent by possibly by changing the input. 
 
 3) Why was merge sort so much more efficient?
-
+Merge is way more efficent because it always divides over and over again. This can be seen in line of code 74-84. More specifically in line 78 when dividing the element and in 79 when dividing the element is divided into 2 halves making this method more efficent than the rest. 
 
 4) The built-in sorting technique for most programming languages is known as TimSort.
 This is a merge sort until the arrays have fewer than 10 elements, then it does an insertion sort. Why would this be useful?
-
+This can be helpful because it is alot more quicker than insertion sort. This can be helpful on cutting down on time this effect can lead to higher efficentcy. 
 
 5) What issues can you see with a recursive sorting technique like merge sort?
+Some issues I can see with recurisve sorting technique like merge sort is it can become slower due to unecessary division. 
